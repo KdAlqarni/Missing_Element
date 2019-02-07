@@ -5,12 +5,13 @@
 import java.io.*; 
 import java.util.Scanner;
 
-public class Main {
+public class missing_element {
     public static void main(String[] args) throws Exception {
-        System.out.printf("This program will find the missing element between TWO Arrays\n");
+        System.out.printf("\nThis program will find the missing element/s that in the First_Array, but NOT\nin the Second_Array\n");
         int [] array1 = {21, 65, 3, 61, 1, 76};
         int [] array2 = {21, 65, 3, 1};
-        find_element(array1, array2);
+        System.out.println("The two arrays are:\n\nFirst_Array[21, 65, 3, 61, 1, 76]\nSecond_Array[21, 65, 3, 1]");
+	find_element(array1, array2);
     }
     public static void find_element(int[] arr1, int[] arr2) {
         int count = 0;
