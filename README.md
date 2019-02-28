@@ -2,7 +2,15 @@
 This program will find the missing element/s between TWO Arrays
 
 
-To Run:
+## To Run:
 
+1.
+``` 
+javac missing_element.java
+``` 
 
-`javac  ` 
+2. 
+
+```
+java missing_element
+```
